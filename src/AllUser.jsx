@@ -18,9 +18,7 @@ const AllUser = () => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
  
-  useEffect(() => {
-   
-}, []);
+
   console.log("homicon should be true",user.homeIcon,user.saveIcon);
  
   let Navigate=useNavigate();
